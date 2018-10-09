@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2D Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterDir="false" />
@@ -39,16 +40,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Score.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Score.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Score.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="21" />
               <folding>
                 <marker date="1539078505117" expanded="true" signature="6:100" ph="..." />
                 <marker date="1539078505117" expanded="true" signature="136:381" ph="{...}" />
                 <marker date="1539078505117" expanded="true" signature="242:281" ph="{...}" />
                 <marker date="1539078505117" expanded="true" signature="335:379" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collision.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Collision.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <folding>
+                <marker date="1539079800827" expanded="true" signature="6:78" ph="..." />
+                <marker date="1539079800827" expanded="true" signature="119:355" ph="{...}" />
+                <marker date="1539079800827" expanded="true" signature="169:176" ph="{...}" />
+                <marker date="1539079800827" expanded="true" signature="243:351" ph="{...}" />
+                <marker date="1539079800827" expanded="true" signature="280:348" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -60,14 +77,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Score.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collision.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Score.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Score.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Collision.cs" />
       </list>
     </option>
   </component>
@@ -147,12 +166,12 @@
       <option name="presentableId" value="Default" />
       <updated>1537860964713</updated>
       <workItem from="1537860966843" duration="779000" />
-      <workItem from="1539077625182" duration="1035000" />
+      <workItem from="1539077625182" duration="1799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1814000" />
+    <option name="totallyTimeSpent" value="2578000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -232,13 +251,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Score.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="21" />
           <folding>
             <marker date="1539078505117" expanded="true" signature="6:100" ph="..." />
             <marker date="1539078505117" expanded="true" signature="136:381" ph="{...}" />
             <marker date="1539078505117" expanded="true" signature="242:281" ph="{...}" />
             <marker date="1539078505117" expanded="true" signature="335:379" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Collision.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <marker date="1539079800827" expanded="true" signature="6:78" ph="..." />
+            <marker date="1539079800827" expanded="true" signature="119:355" ph="{...}" />
+            <marker date="1539079800827" expanded="true" signature="169:176" ph="{...}" />
+            <marker date="1539079800827" expanded="true" signature="243:351" ph="{...}" />
+            <marker date="1539079800827" expanded="true" signature="280:348" ph="{...}" />
           </folding>
         </state>
       </provider>
