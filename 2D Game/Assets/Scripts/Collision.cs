@@ -2,19 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Collision : MonoBehaviour
 {
 	public GameObject good;
 	public GameObject bad;
 	
+	
+	public AudioSource bottle;
+	public AudioSource paper;
+	
 	// Use this for initialization
-	void Start () {
-		
+	void Start ()
+	{
+
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
+	void Update () {	
 	}
 	
 	//void OnCollisionEnter2D(Collision2D col)
@@ -27,13 +32,16 @@ public class Collision : MonoBehaviour
 	
 	public void OnParticleCollision(GameObject other)
 	{
+		
 		if (other == good)
 		{
+			paper.Play();
 			PointScript.pointVal += 1;
 		}
-
+		
 		if (other == bad)
 		{
+			bottle.Play();
 			PointScript.pointVal -= 1;
 		}
 	}
