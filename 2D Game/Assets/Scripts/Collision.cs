@@ -10,12 +10,20 @@ public class Collision : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update (Collider col) {
-		if(col.name == "Particle System")
-		{
-			Score.pointVal += 1;
-			// It is object tagged with TagB
-		}
+	void Update () {
+		
 	}
-d
+	
+	//void OnCollisionEnter2D(Collision2D col)
+	//{
+	//	if(col.gameObject.name.Equals("Bottles"))
+	//	{
+	//		PointScript.pointVal += 1;
+	//	}
+	//}
+	
+	private void OnParticleCollision(GameObject other)
+	{
+		PointScript.pointVal += 1;
+	}
 }
