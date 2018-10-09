@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Collision : MonoBehaviour {
-
+public class Collision : MonoBehaviour
+{
+	public GameObject good;
+	public GameObject bad;
+	
 	// Use this for initialization
 	void Start () {
 		
@@ -22,8 +25,16 @@ public class Collision : MonoBehaviour {
 	//	}
 	//}
 	
-	private void OnParticleCollision(GameObject other)
+	public void OnParticleCollision(GameObject other)
 	{
-		PointScript.pointVal += 1;
+		if (other == good)
+		{
+			PointScript.pointVal += 1;
+		}
+
+		if (other == bad)
+		{
+			PointScript.pointVal -= 1;
+		}
 	}
 }
